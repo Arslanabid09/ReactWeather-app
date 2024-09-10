@@ -89,7 +89,7 @@ const Weather = () => {
 
         {weatherData ? (
           <div className='flex flex-col space-y-10 items-center mt-10'>
-            <img src={`./${weatherData.weatherIcon}`} alt="Weather Icon" className='w-24' />
+            <img src={`${.weatherData.weatherIcon}`} alt="Weather Icon" className='w-24' />
             <div className='text-center'>
               <h1 className='text-6xl text-white font-bold'>{Math.round(weatherData.temp)}°C</h1>
               <p className='mt-2 text-white font-semibold text-xl'>{weatherData.city}, {weatherData.country}</p>
