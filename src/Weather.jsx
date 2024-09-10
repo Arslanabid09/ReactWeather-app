@@ -15,7 +15,7 @@ const Weather = () => {
     const wIcons = {
       "01d": clear,
       "01n": clear,
-      "02d": "."+cloud,
+      "02d": "./"+cloud,
       "02n": cloud,
       "03d": cloud,
       "03n": cloud,
